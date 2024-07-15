@@ -1,2 +1,79 @@
-
-/* COGS3 studyBuddy specific styles go here. */
+#title {
+    background-color: #9b2ad7;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium';
+  }
+p {
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-link{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: lighter;
+}
+#testimonials{
+    padding: 7%, 15%;
+    text-align: center;
+    background-color:rgb(35, 35, 35) ;
+    color:white
+}
+.title-image{
+    background-color: white;
+    opacity: .2;
+    z-index: -1;
+    position: absolute;
+}
+#pricing{
+    background-color: #9b2ad7;
+}
+h2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5;
+    font-weight: bold;
+    color: white;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius:50%;
+    margin: 10px;
+    font:trebuchet
+}
+#cta{
+    background-color: #9b2ad7;
+    color: white;
+    padding: 7%, 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+@media (max-width: 1028px){
+ .title-image {
+    position: static;
+    transform: rotate(0);
+ #title{
+    text-align: center;
+ }
+ }   
+}
